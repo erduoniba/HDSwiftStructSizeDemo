@@ -455,24 +455,24 @@ custom_rules:
 
 ```shell
 .
-├── Asserts																		# 图片资源
+├── Asserts # 图片资源
 ├── README.md
 └── Struct对比
-    ├── HDSwiftCOWDemo												# 测试struct和class大小的工程（代码）
+    ├── HDSwiftCOWDemo # 测试struct和class大小的工程（代码）
     │   ├── HDSwiftCOWDemo	
     │   └── HDSwiftCOWDemo.xcodeproj
-    ├── LinkMap																# 改造后的LinkMap源码，支持二进制升/降排序序（工具）
+    ├── LinkMap # 改造后的LinkMap源码，支持二进制升/降排序序（工具）
     │   ├── LinkMap
     │   ├── LinkMap.xcodeproj
     │   ├── README.md
     │   ├── ScreenShot1.png
     │   └── ScreenShot2.png
-    ├── StructSize.playground									# playground工程，主要验证二进制增长的函数（代码）
+    ├── StructSize.playground # playground工程，主要验证二进制增长的函数（代码）
     │   ├── Contents.swift
     │   ├── contents.xcplayground
     │   └── playground.xcworkspace
-    ├── Swift-Struct/Class大小.xlsx						# struct和class大小数据及图表生成（数据：最终产物）
-    └── linkmap对比														# 记录struct和class的linkmap数据（数据）
+    ├── Swift-Struct/Class大小.xlsx # struct和class大小数据及图表生成（数据：最终产物）
+    └── linkmap对比 # 记录struct和class的linkmap数据（数据）
         ├── HDClassDecodableObj.txt
         ├── HDClassObj.txt
         ├── HDStructDecodableObj.txt
