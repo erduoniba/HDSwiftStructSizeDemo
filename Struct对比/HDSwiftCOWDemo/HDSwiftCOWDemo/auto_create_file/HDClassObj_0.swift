@@ -1,0 +1,2 @@
+class HDClassObj_0 {
+}

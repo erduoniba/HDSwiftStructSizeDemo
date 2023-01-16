@@ -1,0 +1,2 @@
+struct HDStructObj_0 {
+}
